@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.head{
+    background-color:rgb(32, 83, 194) ;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 50px;
+    
+}
+#button{
+    border: none;
+    background: none;
+    color: white;
+    display: inline;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 7px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+input{
+    width: 300px;
+    height: 33px;
+    margin-top: 8px;
+}
+.head-2{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.g2{
+    width: 180px;
+    height: 70px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+img{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.p{
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+.p span{
+         color: rgb(86, 87, 88);
+}
+
+#button:hover{
+    background-color: rgb(47, 47, 52);
+    height: 50px;
+}
+.head-3{
+    display: grid;
+    grid-template-columns:15% 10% 10% 10% 10% 10% 10% 10% 15%;
+}
+.head-3 button{
+    height: 50px;
+    border: none;
+    border-right: 1px solid white;
+    background-color: rgb(3, 52, 77);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.main-1{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "a b c d";
+}
+main img{
+    width: 90px;
+    height: 90px;
+    margin: 8vh auto 25px auto;
+    
+}
+.fir{
+    grid-area: a;
+}
+.sec{
+    grid-area: b;
+
+}
+.third{
+    grid-area: c;
+}
+.fourth{
+    grid-area: d;
+}
+.main-2{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "e f g h";
+}
+.fifth{
+    grid-area: e;
+}
+.sixth{
+    grid-area: f;
+
+}
+.seven{
+    grid-area: g;
+}
+.eight{
+    grid-area: h;
+}
+.main-3{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "i j k l";
+}
+.nine{
+    grid-area: i;
+}
+.ten{
+    grid-area: j;
+
+}
+.leven{
+    grid-area: k;
+}
+.twelth{
+    grid-area: l;
+}
+.main-4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "m n o p";
+}
+.other1{
+    grid-area: m;
+}
+.other2{
+    grid-area: n;
+
+}
+.other3{
+    grid-area: o;
+}
+.other4{
+    grid-area: p;
+}
+.main-5{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "q r s t";
+}
+.report1{
+    grid-area: q;
+}
+.report2{
+    grid-area: r;
+
+}
+.report3{
+    grid-area: s;
+}
+.report4{
+    grid-area: t;
+}
+.main-6{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "u v w x";
+}
+.media1{
+    grid-area: u;
+}
+.media2{
+    grid-area: v;
+
+}
+.media3{
+    grid-area: w;
+}
+.media4{
+    grid-area: x;
+}
+.main-7{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "y z zz yy";
+}
+.service1{
+    grid-area: y;
+}
+.service2{
+    grid-area: z;
+
+}
+.service3{
+    grid-area: zz;
+}
+.service4{
+    grid-area: yy;
+}
+.main{
+    text-align: center;
+}
+main button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(57, 148, 184);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+main p{
+    margin-top: 10px;
+}
+main button:hover{
+    background-color: white;
+    color: rgb(57, 148, 184) ;
+    outline: 1px solid  rgb(57, 148, 184);
+}
+.fir,.sec, .third ,.fourth, .fifth ,.sixth ,.seven, .eight,
+ .nine, .ten ,.leven ,.twelth,.other1,.other2,.other3,.other4,
+ .report1,.report2,.report3,.report4,.media1,.media2,.media3,.media4,.media5,.media6,
+  .service1,.service2,.service3,.service4{
+    width: 300px;
+    height: 340px;
+    border: 2px solid rgb(201, 193, 193);
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+}
+
+.row-2,.row-4,.row-6{
+    background-color:rgba(151, 243, 243, 0.2);
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+}
+.row-6 {
+    height: 850px;
+    
+}
+.media3 p{
+    margin-bottom: 20px;
+    
+}
+.main-1 div:hover{
+    border: none;
+    outline: 2px solid aqua;
+}
+.main-2 div:hover{
+      border: none;
+      outline: 2px solid aqua;
+}
+.main-3 div:hover{
+    border: none;
+    outline: 2px solid aqua;
+}
+.main-4 div:hover{
+    border: none;
+    outline: 2px solid aqua;
+}
+.main-5 div:hover{
+    border: none;
+    outline: 2px solid aqua;
+}
+.main-6 div:hover{
+    border: none;
+    outline: 2px solid aqua;
+}
+.main-7 div:hover{
+    border: none;
+    outline: 2px solid aqua;
+}
+ /* about.......... */
+ .about h1{
+    background-color: aqua;
+    margin-top: 10px;
+ }
+ .about {
+    text-align: left;
+    word-spacing: 5px;
+    line-height: 40px;
+    margin-left: 100px;
+ }
+ /* -----------contact-------------- */
+.table1{
+        width: 1000px;
+        height: 100px;
+        margin-left: 250px;
+        margin-top: 70px;
+ }
+ .table2{
+    width: 1000px;
+    height: 250px;
+    margin-left: 250px;
+    margin-top: 70px;
+ }
+ .contact h1{
+    background-color: aqua;
+    margin-top: 10px;
+ } 
+
+
